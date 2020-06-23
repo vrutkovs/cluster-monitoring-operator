@@ -43,7 +43,7 @@ local thanosQuerierRules =
         namespace: config.namespace,
         image: config.imageRepos.openshiftThanos + ':' + config.versions.openshiftThanos,
         version: '0.12.0',
-        replicas: 2,
+        replicas: 1,
         replicaLabels: ['prometheus_replica', 'thanos_ruler_replica'],
         stores: ['dnssrv+_grpc._tcp.prometheus-operated.openshift-monitoring.svc.cluster.local'],
       },

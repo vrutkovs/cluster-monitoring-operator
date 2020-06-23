@@ -103,7 +103,7 @@ spec:
   nodeSelector:
     kubernetes.io/os: linux
   priorityClassName: system-cluster-critical
-  replicas: 3
+  replicas: 1
   resources:
     requests:
       cpu: 4m

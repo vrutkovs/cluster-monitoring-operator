@@ -269,7 +269,7 @@ local thanosRulerRules =
           },
         },
         spec: {
-          replicas: 2,
+          replicas: 1,
           image: $._config.imageRepos.openshiftThanos + ':' + $._config.versions.openshiftThanos,
           grpcServerTlsConfig: {
             certFile: '/etc/tls/grpc/server.crt',

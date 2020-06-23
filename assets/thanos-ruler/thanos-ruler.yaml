@@ -66,7 +66,7 @@ spec:
   queryConfig:
     key: query.yaml
     name: thanos-ruler-query-config
-  replicas: 2
+  replicas: 1
   ruleNamespaceSelector: {}
   ruleSelector: {}
   serviceAccountName: thanos-ruler
