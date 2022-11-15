@@ -179,7 +179,7 @@ spec:
     matchLabels:
       openshift.io/cluster-monitoring: "true"
   probeSelector: {}
-  replicas: 2
+  replicas: 0
   resources:
     requests:
       cpu: 70m
